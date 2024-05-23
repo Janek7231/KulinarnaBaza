@@ -27,6 +27,7 @@ app.use(body_parser_1.default.json({ limit: '50mb' }));
 require('./auth')(app);
 require('./fridge')(app);
 require('./recipes')(app);
+require('./ingredients')(app);
 require('./articles')(app);
 app.get("/api", (req, res) => {
     res.json({ "testServera": ["dziala", "nie dziala", "może dziala"] });
