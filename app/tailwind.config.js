@@ -13,6 +13,7 @@ export default {
         bgWhiteHover: "#f4f2f0",
         bgDark: "#1f1b1a",
         bgDarkHover: "#282322",
+        bgDarkHover2: "#383130",
       },
       screens: {
         xs: "320px",
@@ -21,6 +22,7 @@ export default {
         md600: "600px",
         md750: "750px",
         md800: "800px",
+        md900: "900px",
       },
       backgroundImage: {
         cockingBgDark: "url('/cockingbg-dark.png')",
